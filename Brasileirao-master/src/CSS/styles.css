@@ -6,29 +6,30 @@ body {
   padding: 20px;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin: 16px 0;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   gap: 16px;
+  margin-bottom: 40px;
 }
 
-.team-item {
+.grid .item {
   text-align: center;
 }
 
-.team-item img {
+.grid .item img {
   width: 48px;
   height: 48px;
   display: block;
   margin: 0 auto 8px;
 }
 
-.team-item span {
-  font-size: 0.9rem;
+.grid .item span {
   display: block;
+  font-size: 0.9rem;
 }
